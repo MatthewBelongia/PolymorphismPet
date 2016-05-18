@@ -42,6 +42,8 @@ public class App extends UserInteraction{
                 case OTHER:
                     allAnimals.add(new Other(animalName));
                     break;
+                default:
+                    allAnimals.add(new Other(animalName));
             }
         }
 
